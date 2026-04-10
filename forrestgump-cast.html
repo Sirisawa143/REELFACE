@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Forrest Gump</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-forrestgump.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="D3.jpg" alt="Forrest Gump"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Drama</span><span class="genre-tag">Romance</span>
+                </div>
+                <h1>Forrest Gump</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.8 / 10.0</span>
+                    <span>1994</span>
+                    <span>USA</span>
+                    <span>142 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Tom Hanks</div>
+                <div class="cast-info">
+                    <div class="cast-name">Forrest Gump</div>
+                    <div class="cast-role">Tom Hanks</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> July 9, 1956<br><b>Nationality:</b> American<br><b>Awards:</b> Two Academy Awards, four Golden Globes, AFI Life Achievement Award<br><b>Known For:</b> Cast Away, Philadelphia, Saving Private Ryan<br><b>Note:</b> Donated his entire salary from the film to charity</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Robin Wright</div>
+                <div class="cast-info">
+                    <div class="cast-name">Jenny Curran</div>
+                    <div class="cast-role">Robin Wright</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> April 8, 1966<br><b>Nationality:</b> American<br><b>Awards:</b> Golden Globe (House of Cards), Emmy<br><b>Known For:</b> The Princess Bride, House of Cards, Wonder Woman<br><b>Note:</b> Was pregnant during part of filming, which required creative camera work</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Gary Sinise</div>
+                <div class="cast-info">
+                    <div class="cast-name">Lt. Dan Taylor</div>
+                    <div class="cast-role">Gary Sinise</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> March 17, 1955<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award nomination, SAG Award<br><b>Known For:</b> Of Mice and Men, Apollo 13, CSI: NY<br><b>Note:</b> His legs were digitally removed for the double-amputee scenes using blue leg coverings</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Mykelti Williamson</div>
+                <div class="cast-info">
+                    <div class="cast-name">Bubba Blue</div>
+                    <div class="cast-role">Mykelti Williamson</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> March 4, 1957<br><b>Nationality:</b> American<br><b>Known For:</b> Heat, Fargo, 24<br><b>Note:</b> Wore a prosthetic lower lip to achieve Bubba's distinctive appearance</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Sally Field</div>
+                <div class="cast-info">
+                    <div class="cast-name">Mrs. Gump</div>
+                    <div class="cast-role">Sally Field</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 6, 1946<br><b>Nationality:</b> American<br><b>Awards:</b> Two Academy Awards, three Emmy Awards<br><b>Known For:</b> Norma Rae, Places in the Heart, Lincoln<br><b>Note:</b> Despite playing Hanks's mother, is only ten years older than him</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

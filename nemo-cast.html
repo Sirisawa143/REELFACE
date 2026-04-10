@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Finding Nemo</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-nemo.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="A3.jpeg" alt="Finding Nemo"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Animation</span><span class="genre-tag">Adventure</span><span class="genre-tag">Family</span>
+                </div>
+                <h1>Finding Nemo</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.2 / 10.0</span>
+                    <span>2003</span>
+                    <span>USA</span>
+                    <span>100 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Albert Brooks</div>
+                <div class="cast-info">
+                    <div class="cast-name">Marlin</div>
+                    <div class="cast-role">Albert Brooks</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> July 22, 1947<br><b>Nationality:</b> American<br><b>Awards:</b> Golden Globe nomination<br><b>Known For:</b> Drive, Broadcast News, Modern Romance<br><b>Note:</b> Improvised a significant amount of Marlin's nervous dialogue during recording sessions</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Ellen DeGeneres</div>
+                <div class="cast-info">
+                    <div class="cast-name">Dory</div>
+                    <div class="cast-role">Ellen DeGeneres</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> January 26, 1958<br><b>Nationality:</b> American<br><b>Awards:</b> Presidential Medal of Freedom<br><b>Known For:</b> Ellen DeGeneres Show, Finding Dory<br><b>Note:</b> Director Andrew Stanton wrote Dory specifically after watching DeGeneres's talk show</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Alexander Gould</div>
+                <div class="cast-info">
+                    <div class="cast-name">Nemo</div>
+                    <div class="cast-role">Alexander Gould</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 4, 1994<br><b>Nationality:</b> American<br><b>Known For:</b> Weeds (TV), Finding Nemo<br><b>Note:</b> Was nine years old when he recorded the role; the process took over a year</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Willem Dafoe</div>
+                <div class="cast-info">
+                    <div class="cast-name">Gill</div>
+                    <div class="cast-role">Willem Dafoe</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> July 22, 1955<br><b>Nationality:</b> American<br><b>Awards:</b> Four Academy Award nominations<br><b>Known For:</b> Platoon, Shadow of the Vampire, At Eternity's Gate<br><b>Note:</b> His distinctive voice gave Gill an authority that felt genuinely earned within the tank</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Bill Hunter</div>
+                <div class="cast-info">
+                    <div class="cast-name">The Dentist (P. Sherman)</div>
+                    <div class="cast-role">Bill Hunter</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 7, 1940<br><b>Nationality:</b> Australian<br><b>Awards:</b> Australian Film Institute Award<br><b>Known For:</b> Muriel's Wedding, Strictly Ballroom<br><b>Note:</b> The address 42 Wallaby Way Sydney became one of cinema's most memorized running gags</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

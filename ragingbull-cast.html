@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Raging Bull</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-ragingbull.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="S2.jpg" alt="Raging Bull"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Sports</span><span class="genre-tag">Drama</span><span class="genre-tag">Biography</span>
+                </div>
+                <h1>Raging Bull</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.2 / 10.0</span>
+                    <span>1980</span>
+                    <span>USA</span>
+                    <span>129 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Robert De Niro</div>
+                <div class="cast-info">
+                    <div class="cast-name">Jake LaMotta</div>
+                    <div class="cast-role">Robert De Niro</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 17, 1943<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award, BAFTA, Golden Globe for this role; one of cinema's most celebrated performances<br><b>Known For:</b> Taxi Driver, Goodfellas, The Godfather Part II<br><b>Note:</b> Gained 60 pounds for the later scenes and trained seriously as a boxer for the ring sequences</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Cathy Moriarty</div>
+                <div class="cast-info">
+                    <div class="cast-name">Vickie LaMotta</div>
+                    <div class="cast-role">Cathy Moriarty</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 29, 1960<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award nomination, Golden Globe nomination for this role<br><b>Known For:</b> Casper, Soapdish, Cop Land<br><b>Note:</b> This was her film debut; Scorsese found her in a New York disco at nineteen years old</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Joe Pesci</div>
+                <div class="cast-info">
+                    <div class="cast-name">Joey LaMotta</div>
+                    <div class="cast-role">Joe Pesci</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 9, 1943<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award nomination for this role; later won for Goodfellas<br><b>Known For:</b> Goodfellas, Home Alone, Casino<br><b>Note:</b> Was actually retired from acting and working in a restaurant when De Niro recruited him for the film</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Frank Vincent</div>
+                <div class="cast-info">
+                    <div class="cast-name">Salvy</div>
+                    <div class="cast-role">Frank Vincent</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> April 4, 1938<br><b>Nationality:</b> American<br><b>Known For:</b> Goodfellas, The Sopranos, Casino<br><b>Note:</b> His physical scenes with De Niro were among the most intensely rehearsed non-boxing sequences in the film</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Nicholas Colasanto</div>
+                <div class="cast-info">
+                    <div class="cast-name">Tommy Como</div>
+                    <div class="cast-role">Nicholas Colasanto</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> January 19, 1924<br><b>Nationality:</b> American<br><b>Known For:</b> Cheers (Coach), various TV director credits<br><b>Note:</b> Better known as a television director; his menacing calm as Tommy was a deliberate subversion of his image</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

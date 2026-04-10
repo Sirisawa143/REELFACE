@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Spirited Away</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-spiritedaway.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="F3.jpg" alt="Spirited Away"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Fantasy</span><span class="genre-tag">Animation</span>
+                </div>
+                <h1>Spirited Away</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.6 / 10.0</span>
+                    <span>2001</span>
+                    <span>Japan</span>
+                    <span>125 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Daveigh Chase (English dub)</div>
+                <div class="cast-info">
+                    <div class="cast-name">Chihiro / Sen</div>
+                    <div class="cast-role">Daveigh Chase (English dub)</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> July 24, 1990<br><b>Nationality:</b> American<br><b>Known For:</b> Lilo and Stitch, The Ring<br><b>Note:</b> Was eleven years old when she recorded the English dub of the film</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Suzanne Pleshette (English dub)</div>
+                <div class="cast-info">
+                    <div class="cast-name">Yubaba / Zeniba</div>
+                    <div class="cast-role">Suzanne Pleshette (English dub)</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> January 31, 1937<br><b>Nationality:</b> American<br><b>Awards:</b> Golden Globe nomination<br><b>Known For:</b> The Bob Newhart Show, The Birds<br><b>Note:</b> Voiced both the villain and her twin sister, a warmly contrasting character</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Jason Marsden (English dub)</div>
+                <div class="cast-info">
+                    <div class="cast-name">Haku</div>
+                    <div class="cast-role">Jason Marsden (English dub)</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> January 4, 1975<br><b>Nationality:</b> American<br><b>Known For:</b> Step by Step, Boy Meets World<br><b>Note:</b> The character is inspired by the Nigorikawa river near Miyazaki's childhood home</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Susan Egan (English dub)</div>
+                <div class="cast-info">
+                    <div class="cast-name">Lin / Rin</div>
+                    <div class="cast-role">Susan Egan (English dub)</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> April 18, 1970<br><b>Nationality:</b> American<br><b>Awards:</b> Theatre World Award<br><b>Known For:</b> Hercules (Belle), Beauty and the Beast (Broadway)<br><b>Note:</b> Originally played Belle on Broadway before transitioning to voice acting</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Bob Bergen (English dub)</div>
+                <div class="cast-info">
+                    <div class="cast-name">No-Face</div>
+                    <div class="cast-role">Bob Bergen (English dub)</div>
+                    <p class="description" style="text-align: start;"><b>Nationality:</b> American<br><b>Known For:</b> Looney Tunes voice work<br><b>Note:</b> No-Face speaks very few words; most of his performance is conveyed through motion</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

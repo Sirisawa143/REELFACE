@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Before Sunrise</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-beforerise.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="HR1.jpg" alt="Before Sunrise"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Romance</span><span class="genre-tag">Drama</span>
+                </div>
+                <h1>Before Sunrise</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.1 / 10.0</span>
+                    <span>1995</span>
+                    <span>USA / Austria</span>
+                    <span>101 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Ethan Hawke</div>
+                <div class="cast-info">
+                    <div class="cast-name">Jesse</div>
+                    <div class="cast-role">Ethan Hawke</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 6, 1970<br><b>Nationality:</b> American<br><b>Awards:</b> Four Academy Award nominations<br><b>Known For:</b> Training Day, Boyhood, Before Sunrise Trilogy<br><b>Note:</b> Collaborated closely with director Richard Linklater on the dialogue, much of which was workshopped in rehearsals</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Julie Delpy</div>
+                <div class="cast-info">
+                    <div class="cast-name">Celine</div>
+                    <div class="cast-role">Julie Delpy</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> December 21, 1969<br><b>Nationality:</b> French-American<br><b>Awards:</b> Academy Award nomination (co-writer, Before Sunset)<br><b>Known For:</b> Before Sunset, Before Midnight, Three Colors: White<br><b>Note:</b> Co-wrote Before Sunset and Before Midnight alongside Hawke and Linklater</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Erni Mangold</div>
+                <div class="cast-info">
+                    <div class="cast-name">Palm Reader</div>
+                    <div class="cast-role">Erni Mangold</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> January 27, 1927<br><b>Nationality:</b> Austrian<br><b>Known For:</b> Various Austrian theater and film productions<br><b>Note:</b> Her brief scene with Celine is considered one of the most quietly poignant moments in the film</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Dominik Castell</div>
+                <div class="cast-info">
+                    <div class="cast-name">Street Poet</div>
+                    <div class="cast-role">Dominik Castell</div>
+                    <p class="description" style="text-align: start;"><b>Nationality:</b> Austrian<br><b>Note:</b> The poem he writes for Jesse and Celine on the spot was actually composed for the film</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Vienna (the city)</div>
+                <div class="cast-info">
+                    <div class="cast-name">Narrator / Herself</div>
+                    <div class="cast-role">Vienna (the city)</div>
+                    <p class="description" style="text-align: start;"><b>Note:</b> Linklater chose Vienna over Paris because he felt it was less romanticized and more honest</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

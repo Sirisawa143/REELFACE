@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of The Zone of Interest</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-zoneofinterest.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="H4.jpg" alt="The Zone of Interest"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">History</span><span class="genre-tag">Drama</span>
+                </div>
+                <h1>The Zone of Interest</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 7.4 / 10.0</span>
+                    <span>2023</span>
+                    <span>UK / Poland</span>
+                    <span>105 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Christian Friedel</div>
+                <div class="cast-info">
+                    <div class="cast-name">Rudolf Hoss</div>
+                    <div class="cast-role">Christian Friedel</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 3, 1981<br><b>Nationality:</b> German<br><b>Awards:</b> German Film Award nomination<br><b>Known For:</b> The White Ribbon, Amour Fou<br><b>Note:</b> Portrays mundane normalcy with such precision that the horror accumulates entirely off screen</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Sandra Huller</div>
+                <div class="cast-info">
+                    <div class="cast-name">Hedwig Hoss</div>
+                    <div class="cast-role">Sandra Huller</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> April 30, 1978<br><b>Nationality:</b> German<br><b>Awards:</b> Academy Award nomination, Cannes Best Actress nomination, European Film Award<br><b>Known For:</b> Toni Erdmann, Anatomy of a Fall<br><b>Note:</b> Her performance as a woman who has made peace with proximity to genocide is the film's most chilling element</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Maximilian Beck</div>
+                <div class="cast-info">
+                    <div class="cast-name">Henryk Hoss</div>
+                    <div class="cast-role">Maximilian Beck</div>
+                    <p class="description" style="text-align: start;"><b>Nationality:</b> German<br><b>Known For:</b> Various German television productions<br><b>Note:</b> Represents how ordinary family life was conducted alongside extraordinary atrocity</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Imogen Kogge</div>
+                <div class="cast-info">
+                    <div class="cast-name">Annegret Himmler</div>
+                    <div class="cast-role">Imogen Kogge</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 11, 1956<br><b>Nationality:</b> German<br><b>Awards:</b> German Film Award<br><b>Known For:</b> Babylon Berlin, Dark<br><b>Note:</b> Her visit scene shows how social performance was maintained even between perpetrators</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Zuzanna Kobiela</div>
+                <div class="cast-info">
+                    <div class="cast-name">The Girl</div>
+                    <div class="cast-role">Zuzanna Kobiela</div>
+                    <p class="description" style="text-align: start;"><b>Nationality:</b> Polish<br><b>Note:</b> Appears in scenes shot in infrared; the only point of view that registers moral clarity</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

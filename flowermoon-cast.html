@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Killers of the Flower Moon</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-flowermoon.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="H3.webp" alt="Killers of the Flower Moon"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">History</span><span class="genre-tag">Drama</span><span class="genre-tag">Crime</span>
+                </div>
+                <h1>Killers of the Flower Moon</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 7.6 / 10.0</span>
+                    <span>2023</span>
+                    <span>USA</span>
+                    <span>206 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Lily Gladstone</div>
+                <div class="cast-info">
+                    <div class="cast-name">Mollie Burkhart</div>
+                    <div class="cast-role">Lily Gladstone</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 2, 1986<br><b>Nationality:</b> American (Blackfeet and Nez Perce heritage)<br><b>Awards:</b> Golden Globe, SAG, Academy Award nomination — first Indigenous actress nominated for Best Actress<br><b>Known For:</b> Certain Women, First Cow<br><b>Note:</b> Her stillness and restraint communicate more than any dialogue; Scorsese called her the film's moral center</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Leonardo DiCaprio</div>
+                <div class="cast-info">
+                    <div class="cast-name">Ernest Burkhart</div>
+                    <div class="cast-role">Leonardo DiCaprio</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 11, 1974<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award (The Revenant), Golden Globe<br><b>Known For:</b> Titanic, The Revenant, The Wolf of Wall Street<br><b>Note:</b> Rejected the original script which centered him as hero; insisted the story be told from Mollie's perspective</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Robert De Niro</div>
+                <div class="cast-info">
+                    <div class="cast-name">William Hale</div>
+                    <div class="cast-role">Robert De Niro</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 17, 1943<br><b>Nationality:</b> American<br><b>Awards:</b> Two Academy Awards, AFI Life Achievement Award<br><b>Known For:</b> Taxi Driver, Raging Bull, Goodfellas<br><b>Note:</b> His sixth collaboration with Scorsese; his folksy patriarch masks genuine evil</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Jesse Plemons</div>
+                <div class="cast-info">
+                    <div class="cast-name">Tom White</div>
+                    <div class="cast-role">Jesse Plemons</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> April 2, 1988<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award nomination (Power of the Dog), Cannes Best Actor<br><b>Known For:</b> Breaking Bad, Game Night, The Power of the Dog<br><b>Note:</b> Appears only in the film's final third; his arrival marks the shift in narrative register</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Brendan Fraser</div>
+                <div class="cast-info">
+                    <div class="cast-name">Burkhart's Lawyer</div>
+                    <div class="cast-role">Brendan Fraser</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> December 3, 1968<br><b>Nationality:</b> American-Canadian<br><b>Awards:</b> Academy Award (The Whale), SAG, Golden Globe<br><b>Known For:</b> The Mummy series, The Whale, Crash<br><b>Note:</b> A small but memorable role in the same year as his own Oscar-winning comeback</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

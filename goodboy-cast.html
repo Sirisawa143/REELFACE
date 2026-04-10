@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Good Boy</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-goodboy.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="HR5.jpg" alt="Good Boy"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Horror</span><span class="genre-tag">Thriller</span>
+                </div>
+                <h1>Good Boy</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 5.9 / 10.0</span>
+                    <span>2023</span>
+                    <span>Norway</span>
+                    <span>97 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Katrine Lovise Opstad Existenz</div>
+                <div class="cast-info">
+                    <div class="cast-name">Sigrid</div>
+                    <div class="cast-role">Katrine Lovise Opstad Existenz</div>
+                    <p class="description" style="text-align: start;"><b>Nationality:</b> Norwegian<br><b>Known For:</b> Various Norwegian television productions<br><b>Note:</b> Her escalating unease drives the film's slow-burn tension</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Gard Eidsvold</div>
+                <div class="cast-info">
+                    <div class="cast-name">Christian</div>
+                    <div class="cast-role">Gard Eidsvold</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 31, 1965<br><b>Nationality:</b> Norwegian<br><b>Awards:</b> Amanda Award (Norwegian Film Award)<br><b>Known For:</b> The Last King, Norsemen<br><b>Note:</b> His performative normalcy is the film's most effective source of dread</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Nicolai Narvesen Lied</div>
+                <div class="cast-info">
+                    <div class="cast-name">Frank (the dog)</div>
+                    <div class="cast-role">Nicolai Narvesen Lied</div>
+                    <p class="description" style="text-align: start;"><b>Nationality:</b> Norwegian<br><b>Known For:</b> Norwegian theater<br><b>Note:</b> Performs the entire film in a realistic dog suit, a physically demanding and deeply bizarre role</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Bernt Ove Endresen</div>
+                <div class="cast-info">
+                    <div class="cast-name">Gunnar</div>
+                    <div class="cast-role">Bernt Ove Endresen</div>
+                    <p class="description" style="text-align: start;"><b>Nationality:</b> Norwegian<br><b>Known For:</b> Various Norwegian film and TV productions<br><b>Note:</b> Represents the social circle that normalizes Christian's arrangement</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Amalie Ibsen Jensen</div>
+                <div class="cast-info">
+                    <div class="cast-name">Sara</div>
+                    <div class="cast-role">Amalie Ibsen Jensen</div>
+                    <p class="description" style="text-align: start;"><b>Nationality:</b> Norwegian<br><b>Known For:</b> Norwegian television productions<br><b>Note:</b> Sigrid's friend whose reactions mirror the audience's growing discomfort</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

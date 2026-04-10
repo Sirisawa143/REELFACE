@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Weapons</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-weapons.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="HR4.jpg" alt="Weapons"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Horror</span><span class="genre-tag">Crime</span>
+                </div>
+                <h1>Weapons</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 6.4 / 10.0</span>
+                    <span>2024</span>
+                    <span>USA</span>
+                    <span>122 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Josh Brolin</div>
+                <div class="cast-info">
+                    <div class="cast-name">Josh</div>
+                    <div class="cast-role">Josh Brolin</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 12, 1968<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award nomination (Milk), Saturn Award<br><b>Known For:</b> No Country for Old Men, Sicario, Avengers: Infinity War<br><b>Note:</b> His quiet menace anchors the film's most unnerving segment</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Julia Garner</div>
+                <div class="cast-info">
+                    <div class="cast-name">Alice</div>
+                    <div class="cast-role">Julia Garner</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 1, 1994<br><b>Nationality:</b> American<br><b>Awards:</b> Three Emmy Awards (Ozark)<br><b>Known For:</b> Ozark, The Assistant, Inventing Anna<br><b>Note:</b> Her segment is the film's emotional and visceral centerpiece</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Alden Ehrenreich</div>
+                <div class="cast-info">
+                    <div class="cast-name">Pedro</div>
+                    <div class="cast-role">Alden Ehrenreich</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 22, 1989<br><b>Nationality:</b> American<br><b>Known For:</b> Solo: A Star Wars Story, Hail, Caesar!, Beautiful Creatures<br><b>Note:</b> His performance establishes the film's atmosphere in its opening moments</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Leven Rambin</div>
+                <div class="cast-info">
+                    <div class="cast-name">Anna</div>
+                    <div class="cast-role">Leven Rambin</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 17, 1990<br><b>Nationality:</b> American<br><b>Known For:</b> The Hunger Games, Grey's Anatomy, True Detective<br><b>Note:</b> Her arc adds a domestic horror dimension to the anthology structure</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Tom Pelphrey</div>
+                <div class="cast-info">
+                    <div class="cast-name">Detective Cole</div>
+                    <div class="cast-role">Tom Pelphrey</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> July 28, 1982<br><b>Nationality:</b> American<br><b>Awards:</b> Emmy nomination (Ozark)<br><b>Known For:</b> Ozark, Banshee, Iron Fist<br><b>Note:</b> Connects the disparate story threads in the film's final act</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

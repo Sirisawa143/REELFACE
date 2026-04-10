@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Oppenheimer</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-oppenheimer.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="H1.webp" alt="Oppenheimer"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">History</span><span class="genre-tag">Drama</span><span class="genre-tag">Biography</span>
+                </div>
+                <h1>Oppenheimer</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.3 / 10.0</span>
+                    <span>2023</span>
+                    <span>USA / UK</span>
+                    <span>180 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Cillian Murphy</div>
+                <div class="cast-info">
+                    <div class="cast-name">J. Robert Oppenheimer</div>
+                    <div class="cast-role">Cillian Murphy</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 25, 1976<br><b>Nationality:</b> Irish<br><b>Awards:</b> Academy Award, BAFTA, Golden Globe, SAG for Best Actor<br><b>Known For:</b> Peaky Blinders, Batman Begins, 28 Days Later<br><b>Note:</b> Lost significant weight for the role; studied Oppenheimer's writings and letters exhaustively</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Robert Downey Jr.</div>
+                <div class="cast-info">
+                    <div class="cast-name">Lewis Strauss</div>
+                    <div class="cast-role">Robert Downey Jr.</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> April 4, 1965<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award, SAG, Golden Globe for this supporting role<br><b>Known For:</b> Iron Man series, Chaplin, Tropic Thunder<br><b>Note:</b> Wore subtle prosthetics; the role was his first major dramatic turn after the MCU era</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Matt Damon</div>
+                <div class="cast-info">
+                    <div class="cast-name">General Leslie Groves</div>
+                    <div class="cast-role">Matt Damon</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> October 8, 1970<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award (Good Will Hunting co-writer), Golden Globe<br><b>Known For:</b> Good Will Hunting, The Martian, Saving Private Ryan<br><b>Note:</b> Gained weight and wore period-accurate military costuming; brought grounded pragmatism to the role</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Emily Blunt</div>
+                <div class="cast-info">
+                    <div class="cast-name">Katherine Oppenheimer</div>
+                    <div class="cast-role">Emily Blunt</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 23, 1983<br><b>Nationality:</b> British<br><b>Awards:</b> Two Academy Award nominations, SAG, Golden Globe<br><b>Known For:</b> A Quiet Place, Edge of Tomorrow, The Devil Wears Prada<br><b>Note:</b> Her confrontation scene in the hearing room was filmed in a single unbroken take</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Florence Pugh</div>
+                <div class="cast-info">
+                    <div class="cast-name">Jean Tatlock</div>
+                    <div class="cast-role">Florence Pugh</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> January 3, 1996<br><b>Nationality:</b> British<br><b>Awards:</b> Academy Award nomination (Little Women)<br><b>Known For:</b> Midsommar, Little Women, Don't Worry Darling<br><b>Note:</b> Her scenes use a different visual palette; Nolan shot them differently to distinguish past from present</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

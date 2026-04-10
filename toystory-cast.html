@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Toy Story</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-toystory.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="A2.jpg" alt="Toy Story"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Animation</span><span class="genre-tag">Adventure</span><span class="genre-tag">Family</span>
+                </div>
+                <h1>Toy Story</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.3 / 10.0</span>
+                    <span>1995</span>
+                    <span>USA</span>
+                    <span>81 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Tom Hanks</div>
+                <div class="cast-info">
+                    <div class="cast-name">Woody</div>
+                    <div class="cast-role">Tom Hanks</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> July 9, 1956<br><b>Nationality:</b> American<br><b>Awards:</b> Two Academy Awards, AFI Life Achievement Award<br><b>Known For:</b> Forrest Gump, Cast Away, Saving Private Ryan<br><b>Note:</b> Recorded most of his dialogue separately from the other actors, a common technique in animation</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Tim Allen</div>
+                <div class="cast-info">
+                    <div class="cast-name">Buzz Lightyear</div>
+                    <div class="cast-role">Tim Allen</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 13, 1953<br><b>Nationality:</b> American<br><b>Awards:</b> People's Choice Award, Golden Globe (TV)<br><b>Known For:</b> Home Improvement, Galaxy Quest, The Santa Clause<br><b>Note:</b> Billy Crystal was originally offered the role of Buzz but turned it down, later calling it a mistake</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Don Rickles</div>
+                <div class="cast-info">
+                    <div class="cast-name">Mr. Potato Head</div>
+                    <div class="cast-role">Don Rickles</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 8, 1926<br><b>Nationality:</b> American<br><b>Awards:</b> Emmy Award<br><b>Known For:</b> Kelly's Heroes, Casino<br><b>Note:</b> Recorded dialogue for Toy Story 4 before his death in 2017; those recordings were used in the film</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Wallace Shawn</div>
+                <div class="cast-info">
+                    <div class="cast-name">Rex</div>
+                    <div class="cast-role">Wallace Shawn</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 12, 1943<br><b>Nationality:</b> American<br><b>Known For:</b> The Princess Bride, Clueless, My Dinner with Andre<br><b>Note:</b> His anxious, self-doubting Rex is a deliberate contrast to the menacing dinosaur look</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Jim Varney</div>
+                <div class="cast-info">
+                    <div class="cast-name">Slinky Dog</div>
+                    <div class="cast-role">Jim Varney</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 15, 1949<br><b>Nationality:</b> American<br><b>Known For:</b> Ernest Goes to Camp series<br><b>Note:</b> Played Slinky in the first two films; Blake Clark took over the role after Varney's death in 2000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

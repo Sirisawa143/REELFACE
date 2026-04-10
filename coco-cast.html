@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Coco</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-coco.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="A5.jpg" alt="Coco"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Animation</span><span class="genre-tag">Family</span><span class="genre-tag">Fantasy</span>
+                </div>
+                <h1>Coco</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.4 / 10.0</span>
+                    <span>2017</span>
+                    <span>USA</span>
+                    <span>105 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Anthony Gonzalez</div>
+                <div class="cast-info">
+                    <div class="cast-name">Miguel Rivera</div>
+                    <div class="cast-role">Anthony Gonzalez</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> July 15, 2004<br><b>Nationality:</b> American<br><b>Awards:</b> Annie Award<br><b>Known For:</b> Coco<br><b>Note:</b> Was twelve years old during recording and had to grow with the character over several years of production</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Gael Garcia Bernal</div>
+                <div class="cast-info">
+                    <div class="cast-name">Hector</div>
+                    <div class="cast-role">Gael Garcia Bernal</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 30, 1978<br><b>Nationality:</b> Mexican<br><b>Awards:</b> Golden Globe (Mozart in the Jungle)<br><b>Known For:</b> Amores Perros, Y Tu Mama Tambien, Babel<br><b>Note:</b> Cast specifically because Pixar wanted authentic Mexican voices for the lead roles</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Alanna Ubach</div>
+                <div class="cast-info">
+                    <div class="cast-name">Imelda Rivera</div>
+                    <div class="cast-role">Alanna Ubach</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> October 3, 1975<br><b>Nationality:</b> American<br><b>Known For:</b> Legally Blonde, Meet the Fockers<br><b>Note:</b> Her character's matriarchal authority was partly modeled on interviews with Mexican families</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Benjamin Bratt</div>
+                <div class="cast-info">
+                    <div class="cast-name">Ernesto de la Cruz</div>
+                    <div class="cast-role">Benjamin Bratt</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> December 16, 1963<br><b>Nationality:</b> American<br><b>Known For:</b> Miss Congeniality, Traffic, Law and Order<br><b>Note:</b> His character's voice and visual design were inspired by classic Mexican cinema's golden era</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">None</div>
+                <div class="cast-info">
+                    <div class="cast-name">Dante</div>
+                    <div class="cast-role">None</div>
+                    <p class="description" style="text-align: start;"><b>Note:</b> The Xoloitzcuintli dog breed used for Dante was chosen for its genuine historical significance in Aztec and Mexican culture</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

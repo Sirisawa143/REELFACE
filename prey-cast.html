@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Prey</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="mn-prey.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="AC4.jpg" alt="Prey"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Action</span><span class="genre-tag">Sci-Fi</span><span class="genre-tag">Thriller</span>
+                </div>
+                <h1>Prey</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 7.1 / 10.0</span>
+                    <span>2022</span>
+                    <span>USA</span>
+                    <span>99 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Amber Midthunder</div>
+                <div class="cast-info">
+                    <div class="cast-name">Naru</div>
+                    <div class="cast-role">Amber Midthunder</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> December 11, 1997<br><b>Nationality:</b> American (Fort Peck Sioux heritage)<br><b>Awards:</b> Critics Choice Award nomination, Saturn Award<br><b>Known For:</b> Legion, Roswell New Mexico, The Ice Road<br><b>Note:</b> A significant portion of the film was shot with a Comanche language dubbed version as an alternative cut</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Dakota Beavers</div>
+                <div class="cast-info">
+                    <div class="cast-name">Taabe</div>
+                    <div class="cast-role">Dakota Beavers</div>
+                    <p class="description" style="text-align: start;"><b>Nationality:</b> American (Cherokee heritage)<br><b>Known For:</b> Film debut<br><b>Note:</b> His genuine connection with Midthunder on screen anchors the sibling relationship at the story's heart</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Dane DiLiegro</div>
+                <div class="cast-info">
+                    <div class="cast-name">The Predator / Feral Predator</div>
+                    <div class="cast-role">Dane DiLiegro</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> April 30, 1990<br><b>Nationality:</b> American<br><b>Known For:</b> American Horror Story<br><b>Note:</b> A former basketball player; his unusual height and physicality were central to casting</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Bennett Taylor</div>
+                <div class="cast-info">
+                    <div class="cast-name">Raphael Adolini</div>
+                    <div class="cast-role">Bennett Taylor</div>
+                    <p class="description" style="text-align: start;"><b>Nationality:</b> American<br><b>Note:</b> Represents the French fur trappers whose brutal cruelty mirrors the Predator in the film's thematic design</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Coco</div>
+                <div class="cast-info">
+                    <div class="cast-name">Sarii (dog)</div>
+                    <div class="cast-role">Coco</div>
+                    <p class="description" style="text-align: start;"><b>Note:</b> The dog accompanying Naru was played by a real animal; its survival became one of the film's most emotionally charged concerns for audiences</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

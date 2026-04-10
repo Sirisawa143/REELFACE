@@ -1,0 +1,154 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces</title>
+</head>
+<body>
+    <nav class="navbar">
+         <div class="logo">
+        <a href="index.html"><img src="logo.png" alt="Logo"></a>
+        <a href="index.html">REEL<span>FACES</span></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+            <li><a href="#" id="genreToggle">Genre</a></li>
+        </ul>
+    </nav>
+ 
+    <div class="index-header">
+        <div class="genre-dropdown" id="genreMenu">
+            <p class="dropdown-label">Genre</p>
+            <a href="#" class="dropdown-link" data-page="content-all.html">All</a>
+            <a href="#" class="dropdown-link" data-page="c-action.html">Action</a>
+            <a href="#" class="dropdown-link" data-page="c-adventure.html">Adventure</a>
+            <a href="#" class="dropdown-link" data-page="c-animation.html">Animation</a>
+            <a href="#" class="dropdown-link" data-page="c-biography.html">Biography</a>
+            <a href="#" class="dropdown-link" data-page="c-comedy.html">Comedy</a>
+            <a href="#" class="dropdown-link" data-page="c-crime.html">Crime</a>
+            <a href="#" class="dropdown-link" data-page="c-drama.html">Drama</a>
+            <a href="#" class="dropdown-link" data-page="c-fantasy.html">Fantasy</a>
+            <a href="#" class="dropdown-link" data-page="c-history.html">History</a>
+            <a href="#" class="dropdown-link" data-page="c-horror.html">Horror</a>
+            <a href="#" class="dropdown-link" data-page="c-romance.html">Romance</a>
+            <a href="#" class="dropdown-link" data-page="c-scifi.html">Sci-Fi</a>
+            <a href="#" class="dropdown-link" data-page="c-sport.html">Sport</a>
+            <a href="#" class="dropdown-link" data-page="c-thriller.html">Thriller</a>
+        </div>
+    
+        <div class="hero-slider" id="heroSlider">
+
+            <div class="hero-slide active" style="background-image: url('titanic.png');">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <div class="hero-categories">
+                        <span class="hero-category">Drama</span>
+                        <span class="hero-category">Romance</span>
+                    </div>
+                    <h1>Titanic</h1>
+                    <div class="movie-info">
+                        <span class="star">&#11088; 7.9</span>
+                        <span>1997</span>
+                        <span>USA</span>
+                    </div>
+                    <p>A young aristocrat falls in love with a poor artist aboard the ill-fated R.M.S. Titanic.</p>
+                    <a class="btn" href="m-titanic.html">&#9654; View Movie</a>
+                </div>
+            </div>
+
+            <div class="hero-slide" style="background-image: url('darkk.jpg');">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <div class="hero-categories">
+                        <span class="hero-category">Action</span>
+                        <span class="hero-category">Crime</span>
+                    </div>
+                    <h1>The Dark Knight</h1>
+                    <div class="movie-info">
+                        <span class="star">&#11088; 9.0</span>
+                        <span>2008</span>
+                        <span>USA</span>
+                    </div>
+                    <p>Batman raises the stakes in his war on crime with the help of Lt. Jim Gordon and DA Harvey Dent.</p>
+                    <a class="btn" href="m-darkknight.html">&#9654; View Movie</a>
+                </div>
+            </div>
+
+            <div class="hero-slide" style="background-image: url('terminator.jpg');">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <div class="hero-categories">
+                        <span class="hero-category">Action</span>
+                        <span class="hero-category">Sci-Fi</span>
+                    </div>
+                    <h1>Terminator 2</h1>
+                    <div class="movie-info">
+                        <span class="star">&#11088; 8.6</span>
+                        <span>1991</span>
+                        <span>USA</span>
+                    </div>
+                    <p>A cyborg is sent back in time to protect young John Connor from a more advanced killing machine.</p>
+                    <a class="btn" href="m-terminator2.html">&#9654; View Movie</a>
+                </div>
+            </div>
+
+            <div class="hero-slide" style="background-image: url('mad.jpg');">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <div class="hero-categories">
+                        <span class="hero-category">Action</span>
+                        <span class="hero-category">Adventure</span>
+                    </div>
+                    <h1>Mad Max: Fury Road</h1>
+                    <div class="movie-info">
+                        <span class="star">&#11088; 8.1</span>
+                        <span>2015</span>
+                        <span>Australia</span>
+                    </div>
+                    <p>In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search of her homeland.</p>
+                    <a class="btn" href="m-madmax.html">&#9654; View Movie</a>
+                </div>
+            </div>
+
+            <div class="hero-slide" style="background-image: url('raiders.jpg');">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <div class="hero-categories">
+                        <span class="hero-category">Action</span>
+                        <span class="hero-category">Adventure</span>
+                    </div>
+                    <h1>Raiders of the Lost Ark</h1>
+                    <div class="movie-info">
+                        <span class="star">&#11088; 8.4</span>
+                        <span>1981</span>
+                        <span>USA</span>
+                    </div>
+                    <p>Archaeologist Indiana Jones races against Nazi operatives to find the legendary Ark of the Covenant.</p>
+                    <a class="btn" href="m-raiders.html">&#9654; View Movie</a>
+                </div>
+            </div>
+
+            <button class="hero-nav hero-prev" id="heroPrev">&#10094;</button>
+            <button class="hero-nav hero-next" id="heroNext">&#10095;</button>
+
+            <div class="hero-dots" id="heroDots">
+                <span class="hero-dot active"></span>
+                <span class="hero-dot"></span>
+                <span class="hero-dot"></span>
+                <span class="hero-dot"></span>
+                <span class="hero-dot"></span>
+            </div>
+        </div>
+    </div>
+
+    <iframe id="genreFrame" class="genre-frame" src="content-all.html"></iframe>
+ 
+    <script src="index.js"></script>
+ 
+</body>
+</html>

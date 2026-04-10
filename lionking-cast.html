@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of The Lion King</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-lionking.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="A1.jpg" alt="The Lion King"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Animation</span><span class="genre-tag">Family</span><span class="genre-tag">Drama</span>
+                </div>
+                <h1>The Lion King</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.5 / 10.0</span>
+                    <span>1994</span>
+                    <span>USA</span>
+                    <span>88 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Matthew Broderick</div>
+                <div class="cast-info">
+                    <div class="cast-name">Adult Simba</div>
+                    <div class="cast-role">Matthew Broderick</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> March 21, 1962<br><b>Nationality:</b> American<br><b>Awards:</b> Tony Award (How to Succeed in Business)<br><b>Known For:</b> Ferris Bueller's Day Off, The Producers, Election<br><b>Note:</b> Jonathan Taylor Thomas voiced young Simba; when Broderick took over, the two never actually met</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">James Earl Jones</div>
+                <div class="cast-info">
+                    <div class="cast-name">Mufasa</div>
+                    <div class="cast-role">James Earl Jones</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> January 17, 1931<br><b>Nationality:</b> American<br><b>Awards:</b> Honorary Academy Award, Tony, Emmy, Grammy<br><b>Known For:</b> Star Wars (Darth Vader), Field of Dreams, Conan the Barbarian<br><b>Note:</b> His voice was so recognized that Disney brought him back for the 2019 remake</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Jeremy Irons</div>
+                <div class="cast-info">
+                    <div class="cast-name">Scar</div>
+                    <div class="cast-role">Jeremy Irons</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> September 19, 1948<br><b>Nationality:</b> British<br><b>Awards:</b> Academy Award (Reversal of Fortune), Golden Globe<br><b>Known For:</b> Dead Ringers, The Mission, Reversal of Fortune<br><b>Note:</b> Completed Scar's be prepared song in one take; damaged his voice and Jim Cummings finished it</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Nathan Lane</div>
+                <div class="cast-info">
+                    <div class="cast-name">Timon</div>
+                    <div class="cast-role">Nathan Lane</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 3, 1956<br><b>Nationality:</b> American<br><b>Awards:</b> Two Tony Awards, Emmy, Golden Globe<br><b>Known For:</b> The Birdcage, Moulin Rouge, The Producers<br><b>Note:</b> Much of the Timon-Pumbaa dialogue was improvised; Lane and Ernie Sabella pushed each other</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Ernie Sabella</div>
+                <div class="cast-info">
+                    <div class="cast-name">Pumbaa</div>
+                    <div class="cast-role">Ernie Sabella</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> September 19, 1949<br><b>Nationality:</b> American<br><b>Known For:</b> Various Broadway productions<br><b>Note:</b> Auditioned for Timon, not Pumbaa; the chemistry with Lane convinced directors to recast them together</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

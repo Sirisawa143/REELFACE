@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Everything Everywhere All at Once</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-everything.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="SF1.jpg" alt="Everything Everywhere All at Once"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Sci-Fi</span><span class="genre-tag">Comedy</span><span class="genre-tag">Drama</span>
+                </div>
+                <h1>Everything Everywhere All at Once</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 7.8 / 10.0</span>
+                    <span>2022</span>
+                    <span>USA</span>
+                    <span>139 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Michelle Yeoh</div>
+                <div class="cast-info">
+                    <div class="cast-name">Evelyn Wang</div>
+                    <div class="cast-role">Michelle Yeoh</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 6, 1962<br><b>Nationality:</b> Malaysian<br><b>Awards:</b> Academy Award, SAG, Golden Globe, BAFTA — first Asian woman to win Best Actress Oscar<br><b>Known For:</b> Crouching Tiger Hidden Dragon, Tomorrow Never Dies, Crazy Rich Asians<br><b>Note:</b> Had been overlooked by Hollywood for decades before this role became a career-defining achievement</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Ke Huy Quan</div>
+                <div class="cast-info">
+                    <div class="cast-name">Waymond Wang</div>
+                    <div class="cast-role">Ke Huy Quan</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 20, 1971<br><b>Nationality:</b> Vietnamese-American<br><b>Awards:</b> Academy Award, SAG, Golden Globe, BAFTA for Best Supporting Actor<br><b>Known For:</b> Indiana Jones and the Temple of Doom, The Goonies<br><b>Note:</b> Retired from acting for years due to lack of roles; this comeback won him the Oscar</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Stephanie Hsu</div>
+                <div class="cast-info">
+                    <div class="cast-name">Joy / Jobu Tupaki</div>
+                    <div class="cast-role">Stephanie Hsu</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 16, 1990<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award nomination, SAG nomination<br><b>Known For:</b> The Marvelous Mrs. Maisel, Shang-Chi and the Legend of the Ten Rings<br><b>Note:</b> Her dual role required performing two completely opposite emotional and physical registers</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Jamie Lee Curtis</div>
+                <div class="cast-info">
+                    <div class="cast-name">Deirdre Beaubeirdra</div>
+                    <div class="cast-role">Jamie Lee Curtis</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 22, 1958<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award, SAG, Golden Globe for this role<br><b>Known For:</b> Halloween series, Trading Places, True Lies<br><b>Note:</b> Described the film as the most unusual and rewarding experience of her career</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">James Hong</div>
+                <div class="cast-info">
+                    <div class="cast-name">Gong Gong</div>
+                    <div class="cast-role">James Hong</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 22, 1929<br><b>Nationality:</b> American<br><b>Awards:</b> Honorary Oscar for lifetime achievement<br><b>Known For:</b> Blade Runner, Big Trouble in Little China, Seinfeld<br><b>Note:</b> One of the most prolific Asian-American character actors; has appeared in over 600 productions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

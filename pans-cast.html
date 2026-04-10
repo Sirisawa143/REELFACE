@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Pan's Labyrinth</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-pans.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="F4.webp" alt="Pan's Labyrinth"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Fantasy</span><span class="genre-tag">Drama</span>
+                </div>
+                <h1>Pan's Labyrinth</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.2 / 10.0</span>
+                    <span>2006</span>
+                    <span>Spain / Mexico</span>
+                    <span>118 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Ivana Baquero</div>
+                <div class="cast-info">
+                    <div class="cast-name">Ofelia</div>
+                    <div class="cast-role">Ivana Baquero</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 11, 1994<br><b>Nationality:</b> Spanish<br><b>Awards:</b> Goya Award (Spanish Film Award)<br><b>Known For:</b> Pan's Labyrinth, The Shannara Chronicles<br><b>Note:</b> Was eleven years old during filming; Del Toro credits her instinctive understanding of the role</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Sergi Lopez</div>
+                <div class="cast-info">
+                    <div class="cast-name">Captain Vidal</div>
+                    <div class="cast-role">Sergi Lopez</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> December 6, 1965<br><b>Nationality:</b> Spanish<br><b>Awards:</b> Goya Award nomination, European Film Award<br><b>Known For:</b> With a Friend Like Harry, Dirty Pretty Things<br><b>Note:</b> His portrayal is deliberately devoid of redeeming characteristics; Del Toro wanted fascism shown without ambiguity</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Maribel Verdu</div>
+                <div class="cast-info">
+                    <div class="cast-name">Mercedes</div>
+                    <div class="cast-role">Maribel Verdu</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> October 2, 1970<br><b>Nationality:</b> Spanish<br><b>Awards:</b> Goya Award, BAFTA nomination<br><b>Known For:</b> Y Tu Mama Tambien, The Others, Blancanieves<br><b>Note:</b> Her character represents real-world resistance; Del Toro deliberately made her story as compelling as Ofelia's</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Doug Jones</div>
+                <div class="cast-info">
+                    <div class="cast-name">The Faun</div>
+                    <div class="cast-role">Doug Jones</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 24, 1960<br><b>Nationality:</b> American<br><b>Awards:</b> Saturn Award<br><b>Known For:</b> Hellboy, The Shape of Water, Fantastic Four<br><b>Note:</b> Spent hours in prosthetics daily and learned the Spanish dialogue phonetically</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Doug Jones</div>
+                <div class="cast-info">
+                    <div class="cast-name">The Pale Man</div>
+                    <div class="cast-role">Doug Jones</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 24, 1960<br><b>Nationality:</b> American<br><b>Note:</b> Jones played both the Faun and the Pale Man; the banquet scene required walking with his eyes in his hands</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

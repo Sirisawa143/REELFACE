@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Sinners</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-sinners.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="HR1.jpg" alt="Sinners"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Horror</span><span class="genre-tag">Drama</span>
+                </div>
+                <h1>Sinners</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 7.9 / 10.0</span>
+                    <span>2025</span>
+                    <span>USA</span>
+                    <span>137 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Michael B. Jordan</div>
+                <div class="cast-info">
+                    <div class="cast-name">Smoke / Stack</div>
+                    <div class="cast-role">Michael B. Jordan</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 9, 1987<br><b>Nationality:</b> American<br><b>Awards:</b> NAACP Image Award, Critics Choice Award<br><b>Known For:</b> Fruitvale Station, Creed series, Black Panther<br><b>Note:</b> Played dual roles as twin brothers; physical and performance preparation took months</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Hailee Steinfeld</div>
+                <div class="cast-info">
+                    <div class="cast-name">Annie</div>
+                    <div class="cast-role">Hailee Steinfeld</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> December 11, 1996<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award nomination (True Grit)<br><b>Known For:</b> True Grit, Edge of Seventeen, Bumblebee<br><b>Note:</b> Her blues performance in the film was recorded live on set</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Jack O'Connell</div>
+                <div class="cast-info">
+                    <div class="cast-name">Remmick</div>
+                    <div class="cast-role">Jack O'Connell</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 1, 1990<br><b>Nationality:</b> British<br><b>Awards:</b> BAFTA Rising Star nomination<br><b>Known For:</b> Unbroken, '71, Skins<br><b>Note:</b> Studied the history of Irish immigrant communities in the American South for the role</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Delroy Lindo</div>
+                <div class="cast-info">
+                    <div class="cast-name">Delta Slim</div>
+                    <div class="cast-role">Delroy Lindo</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 18, 1952<br><b>Nationality:</b> British-American<br><b>Awards:</b> NAACP Image Award; frequently overlooked for major awards despite acclaimed work<br><b>Known For:</b> Malcolm X, Get Shorty, Da 5 Bloods<br><b>Note:</b> His Delta blues performance grounds the film's mythology in genuine musical history</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Li Jun Li</div>
+                <div class="cast-info">
+                    <div class="cast-name">Pearline</div>
+                    <div class="cast-role">Li Jun Li</div>
+                    <p class="description" style="text-align: start;"><b>Nationality:</b> Chinese-American<br><b>Known For:</b> The Terror, Warrior<br><b>Note:</b> Her character's backstory connects the film's supernatural elements to immigrant experience</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

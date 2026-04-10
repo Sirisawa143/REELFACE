@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Remember the Titans</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m.rembertitans.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="S3.png" alt="Remember the Titans"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Sports</span><span class="genre-tag">Drama</span><span class="genre-tag">History</span>
+                </div>
+                <h1>Remember the Titans</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 7.8 / 10.0</span>
+                    <span>2000</span>
+                    <span>USA</span>
+                    <span>113 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Denzel Washington</div>
+                <div class="cast-info">
+                    <div class="cast-name">Coach Herman Boone</div>
+                    <div class="cast-role">Denzel Washington</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> December 28, 1954<br><b>Nationality:</b> American<br><b>Awards:</b> Two Academy Awards, SAG, Golden Globe, Tony<br><b>Known For:</b> Training Day, Malcolm X, Fences<br><b>Note:</b> Met the real Herman Boone extensively; Boone said Washington's portrayal was remarkably accurate</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Will Patton</div>
+                <div class="cast-info">
+                    <div class="cast-name">Coach Bill Yoast</div>
+                    <div class="cast-role">Will Patton</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 14, 1954<br><b>Nationality:</b> American<br><b>Known For:</b> Armageddon, No Way Out, The Punisher<br><b>Note:</b> His gradual shift from competitor to ally mirrors the film's larger racial reconciliation theme</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Ryan Hurst</div>
+                <div class="cast-info">
+                    <div class="cast-name">Gerry Bertier</div>
+                    <div class="cast-role">Ryan Hurst</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 19, 1976<br><b>Nationality:</b> American<br><b>Known For:</b> Sons of Anarchy, The Walking Dead, Outsiders<br><b>Note:</b> Lost significant weight after filming to signal the time jump to Bertier's accident</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Wood Harris</div>
+                <div class="cast-info">
+                    <div class="cast-name">Julius Campbell</div>
+                    <div class="cast-role">Wood Harris</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> October 17, 1969<br><b>Nationality:</b> American<br><b>Known For:</b> The Wire, Remember the Titans, Creed<br><b>Note:</b> His and Hurst's friendship scenes required extensive rehearsal to feel earned across the film's timeline</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Ethan Suplee</div>
+                <div class="cast-info">
+                    <div class="cast-name">Louie Lastik</div>
+                    <div class="cast-role">Ethan Suplee</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 25, 1976<br><b>Nationality:</b> American<br><b>Known For:</b> My Name Is Earl, American History X, Blow<br><b>Note:</b> His comedic warmth provides crucial levity in a film dealing with serious racial themes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

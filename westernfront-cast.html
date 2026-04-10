@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of All Quiet on the Western Front</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-westernfront.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="H2.jpg" alt="All Quiet on the Western Front"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">History</span><span class="genre-tag">Drama</span><span class="genre-tag">War</span>
+                </div>
+                <h1>All Quiet on the Western Front</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 7.8 / 10.0</span>
+                    <span>2022</span>
+                    <span>Germany</span>
+                    <span>148 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Felix Kammerer</div>
+                <div class="cast-info">
+                    <div class="cast-name">Paul Baumer</div>
+                    <div class="cast-role">Felix Kammerer</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 9, 1996<br><b>Nationality:</b> Austrian<br><b>Awards:</b> German Film Award nomination<br><b>Known For:</b> Theater stage work; this was his film debut<br><b>Note:</b> Director Edward Berger cast a relative unknown to make Paul's transformation feel entirely authentic</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Albrecht Schuch</div>
+                <div class="cast-info">
+                    <div class="cast-name">Kat</div>
+                    <div class="cast-role">Albrecht Schuch</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> September 8, 1985<br><b>Nationality:</b> German<br><b>Awards:</b> German Film Award<br><b>Known For:</b> Berlin Alexanderplatz, Fabian: Going to the Dogs<br><b>Note:</b> His weathered presence as Paul's mentor is the film's emotional backbone</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Aaron Hilmer</div>
+                <div class="cast-info">
+                    <div class="cast-name">Albert Kropp</div>
+                    <div class="cast-role">Aaron Hilmer</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> January 17, 2000<br><b>Nationality:</b> German<br><b>Known For:</b> The Wave (German remake)<br><b>Note:</b> One of several young German actors recruited specifically for the production</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Daniel Bruhl</div>
+                <div class="cast-info">
+                    <div class="cast-name">Matthias Erzberger</div>
+                    <div class="cast-role">Daniel Bruhl</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 16, 1978<br><b>Nationality:</b> German-Spanish<br><b>Awards:</b> BAFTA nomination (Rush), European Film Award<br><b>Known For:</b> Inglourious Basterds, Rush, The Falcon and the Winter Soldier<br><b>Note:</b> His armistice negotiation subplot adds political irony to the film's tragic final act</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Edin Hasanovic</div>
+                <div class="cast-info">
+                    <div class="cast-name">Tjaden</div>
+                    <div class="cast-role">Edin Hasanovic</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 10, 1992<br><b>Nationality:</b> Bosnian-German<br><b>Awards:</b> Bavarian Film Award<br><b>Known For:</b> How to Sell Drugs Online Fast<br><b>Note:</b> His dark humor provides brief moments of relief in an otherwise relentless film</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

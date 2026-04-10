@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Inside Out</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-insideout.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="A4.jpg" alt="Inside Out"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Animation</span><span class="genre-tag">Family</span>
+                </div>
+                <h1>Inside Out</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.1 / 10.0</span>
+                    <span>2015</span>
+                    <span>USA</span>
+                    <span>95 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Amy Poehler</div>
+                <div class="cast-info">
+                    <div class="cast-name">Joy</div>
+                    <div class="cast-role">Amy Poehler</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> September 16, 1969<br><b>Nationality:</b> American<br><b>Awards:</b> Golden Globe, Emmy, SAG<br><b>Known For:</b> Parks and Recreation, Mean Girls, Saturday Night Live<br><b>Note:</b> Poehler recorded many of Joy's scenes alone, without other cast members, to capture pure emotional energy</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Phyllis Smith</div>
+                <div class="cast-info">
+                    <div class="cast-name">Sadness</div>
+                    <div class="cast-role">Phyllis Smith</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> July 10, 1951<br><b>Nationality:</b> American<br><b>Known For:</b> The Office<br><b>Note:</b> Described Sadness as being genuinely important and not a throwaway character from the first table read</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Bill Hader</div>
+                <div class="cast-info">
+                    <div class="cast-name">Fear</div>
+                    <div class="cast-role">Bill Hader</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 7, 1978<br><b>Nationality:</b> American<br><b>Awards:</b> Emmy Award (Barry), Golden Globe<br><b>Known For:</b> Saturday Night Live, Barry, It Chapter Two<br><b>Note:</b> Much of Fear's panicked outbursts were improvised during recording sessions</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Lewis Black</div>
+                <div class="cast-info">
+                    <div class="cast-name">Anger</div>
+                    <div class="cast-role">Lewis Black</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 30, 1948<br><b>Nationality:</b> American<br><b>Awards:</b> Grammy Award<br><b>Known For:</b> The Daily Show, Man of the Year<br><b>Note:</b> Black was chosen specifically because his stage persona was already essentially a living embodiment of Anger</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Mindy Kaling</div>
+                <div class="cast-info">
+                    <div class="cast-name">Disgust</div>
+                    <div class="cast-role">Mindy Kaling</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 24, 1979<br><b>Nationality:</b> American<br><b>Awards:</b> NAACP Image Award<br><b>Known For:</b> The Office, The Mindy Project, Never Have I Ever<br><b>Note:</b> Kaling has said Disgust is the emotion she most personally identifies with</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

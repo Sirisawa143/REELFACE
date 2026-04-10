@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Her</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-her.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="SF4.webp" alt="Her"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Romance</span><span class="genre-tag">Sci-Fi</span><span class="genre-tag">Drama</span>
+                </div>
+                <h1>Her</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.0 / 10.0</span>
+                    <span>2013</span>
+                    <span>USA</span>
+                    <span>126 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Joaquin Phoenix</div>
+                <div class="cast-info">
+                    <div class="cast-name">Theodore Twombly</div>
+                    <div class="cast-role">Joaquin Phoenix</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> October 28, 1974<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award (Joker), BAFTA, Golden Globe, Cannes Best Actor<br><b>Known For:</b> Joker, Walk the Line, The Master<br><b>Note:</b> Recorded all his scenes before Scarlett Johansson recorded her voice, so he was reacting to a different actress</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Scarlett Johansson</div>
+                <div class="cast-info">
+                    <div class="cast-name">Samantha (voice)</div>
+                    <div class="cast-role">Scarlett Johansson</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 22, 1984<br><b>Nationality:</b> American<br><b>Awards:</b> BAFTA nominations, Tony Award<br><b>Known For:</b> Black Widow, Marriage Story, Lost in Translation<br><b>Note:</b> Replaced Samantha Morton who originally recorded all of Samantha's lines during filming</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Amy Adams</div>
+                <div class="cast-info">
+                    <div class="cast-name">Amy</div>
+                    <div class="cast-role">Amy Adams</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 20, 1974<br><b>Nationality:</b> American<br><b>Awards:</b> Six Academy Award nominations, Golden Globe<br><b>Known For:</b> Junebug, American Hustle, Arrival<br><b>Note:</b> Her character provides Theodore's only genuine human emotional anchor in the film</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Rooney Mara</div>
+                <div class="cast-info">
+                    <div class="cast-name">Catherine</div>
+                    <div class="cast-role">Rooney Mara</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> April 17, 1985<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award nomination (Carol), Cannes Best Actress<br><b>Known For:</b> The Girl with the Dragon Tattoo, Carol, Lion<br><b>Note:</b> Appears mostly in flashbacks, yet her presence defines Theodore's emotional state</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Chris Pratt</div>
+                <div class="cast-info">
+                    <div class="cast-name">Paul</div>
+                    <div class="cast-role">Chris Pratt</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 21, 1979<br><b>Nationality:</b> American<br><b>Awards:</b> Critics Choice Award<br><b>Known For:</b> Guardians of the Galaxy, Jurassic World, Parks and Recreation<br><b>Note:</b> This small role came before his breakout in Guardians of the Galaxy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

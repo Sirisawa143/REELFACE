@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Dune: Part Two</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-dune2.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="SF2.jpg" alt="Dune: Part Two"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Sci-Fi</span><span class="genre-tag">Adventure</span>
+                </div>
+                <h1>Dune: Part Two</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.5 / 10.0</span>
+                    <span>2024</span>
+                    <span>USA</span>
+                    <span>166 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Timothee Chalamet</div>
+                <div class="cast-info">
+                    <div class="cast-name">Paul Atreides</div>
+                    <div class="cast-role">Timothee Chalamet</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> December 27, 1995<br><b>Nationality:</b> American-French<br><b>Awards:</b> Academy Award nomination (Call Me by Your Name), Golden Globe<br><b>Known For:</b> Call Me by Your Name, Little Women, Wonka<br><b>Note:</b> His transformation from reluctant hero to messianic figure is the film's central arc</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Zendaya</div>
+                <div class="cast-info">
+                    <div class="cast-name">Chani</div>
+                    <div class="cast-role">Zendaya</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> September 1, 1996<br><b>Nationality:</b> American<br><b>Awards:</b> Two Emmy Awards (Euphoria)<br><b>Known For:</b> Euphoria, Spider-Man series, Malcolm and Marie<br><b>Note:</b> Has significantly more screen time than the first film; her skepticism is the story's moral anchor</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Rebecca Ferguson</div>
+                <div class="cast-info">
+                    <div class="cast-name">Lady Jessica</div>
+                    <div class="cast-role">Rebecca Ferguson</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> October 19, 1983<br><b>Nationality:</b> Swedish<br><b>Awards:</b> Critics Choice Award nomination<br><b>Known For:</b> Mission: Impossible series, Doctor Sleep, The Greatest Showman<br><b>Note:</b> Her transformation in Part Two into a more ambiguous figure is among the film's darkest turns</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Austin Butler</div>
+                <div class="cast-info">
+                    <div class="cast-name">Feyd-Rautha</div>
+                    <div class="cast-role">Austin Butler</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 17, 1991<br><b>Nationality:</b> American<br><b>Awards:</b> Golden Globe nomination, BAFTA (Elvis)<br><b>Known For:</b> Elvis, Once Upon a Time in Hollywood<br><b>Note:</b> Filmed his scenes in stark black and white; brought a reptilian physicality to the villain</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Florence Pugh</div>
+                <div class="cast-info">
+                    <div class="cast-name">Princess Irulan</div>
+                    <div class="cast-role">Florence Pugh</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> January 3, 1996<br><b>Nationality:</b> British<br><b>Awards:</b> Academy Award nomination (Little Women)<br><b>Known For:</b> Midsommar, Little Women, Oppenheimer<br><b>Note:</b> Her role sets up the threads that carry into the planned third film</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

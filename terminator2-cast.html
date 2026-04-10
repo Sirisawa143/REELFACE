@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Terminator 2: Judgment Day</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-terminator2.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="AC2.jpg" alt="Terminator 2: Judgment Day"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Action</span><span class="genre-tag">Sci-Fi</span>
+                </div>
+                <h1>Terminator 2: Judgment Day</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.6 / 10.0</span>
+                    <span>1991</span>
+                    <span>USA</span>
+                    <span>137 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Arnold Schwarzenegger</div>
+                <div class="cast-info">
+                    <div class="cast-name">The Terminator (T-800)</div>
+                    <div class="cast-role">Arnold Schwarzenegger</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> July 30, 1947<br><b>Nationality:</b> Austrian-American<br><b>Awards:</b> Golden Globe (honorary), Saturn Award<br><b>Known For:</b> The Terminator, Predator, Total Recall<br><b>Note:</b> Said only 700 words in the entire film; prepared by studying how machines move</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Linda Hamilton</div>
+                <div class="cast-info">
+                    <div class="cast-name">Sarah Connor</div>
+                    <div class="cast-role">Linda Hamilton</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> September 26, 1956<br><b>Nationality:</b> American<br><b>Awards:</b> Golden Globe nomination<br><b>Known For:</b> The Terminator, Dante's Peak, Chuck<br><b>Note:</b> Trained for a year with former Israeli commando to achieve the physical transformation</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Edward Furlong</div>
+                <div class="cast-info">
+                    <div class="cast-name">John Connor (teen)</div>
+                    <div class="cast-role">Edward Furlong</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 2, 1977<br><b>Nationality:</b> American<br><b>Awards:</b> Saturn Award for Best Performance by a Younger Actor<br><b>Known For:</b> American History X, Pecker<br><b>Note:</b> Was discovered at a youth club in Pasadena; this was his screen debut</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Robert Patrick</div>
+                <div class="cast-info">
+                    <div class="cast-name">T-1000</div>
+                    <div class="cast-role">Robert Patrick</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 5, 1958<br><b>Nationality:</b> American<br><b>Awards:</b> Saturn Award nomination<br><b>Known For:</b> The X-Files, Spy Kids, Cop Land<br><b>Note:</b> Ran six miles a day to be fast enough to keep up with Schwarzenegger</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Earl Boen</div>
+                <div class="cast-info">
+                    <div class="cast-name">Dr. Silberman</div>
+                    <div class="cast-role">Earl Boen</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> April 8, 1945<br><b>Nationality:</b> American<br><b>Known For:</b> The Terminator, Terminator 3<br><b>Note:</b> Reprised this role across three Terminator films</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

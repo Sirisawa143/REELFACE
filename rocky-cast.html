@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Rocky</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-rocky.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="S1.jpg" alt="Rocky"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Sports</span><span class="genre-tag">Drama</span>
+                </div>
+                <h1>Rocky</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.1 / 10.0</span>
+                    <span>1976</span>
+                    <span>USA</span>
+                    <span>120 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Sylvester Stallone</div>
+                <div class="cast-info">
+                    <div class="cast-name">Rocky Balboa</div>
+                    <div class="cast-role">Sylvester Stallone</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> July 6, 1946<br><b>Nationality:</b> American<br><b>Awards:</b> Two Academy Award nominations (actor and writer for this film), Golden Globe<br><b>Known For:</b> Rambo series, Creed, The Expendables<br><b>Note:</b> Wrote the script in three days; refused to sell it unless he could star in it despite being offered substantial money</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Talia Shire</div>
+                <div class="cast-info">
+                    <div class="cast-name">Adrian</div>
+                    <div class="cast-role">Talia Shire</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> April 25, 1946<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award nomination, Golden Globe nomination<br><b>Known For:</b> The Godfather series, Rocky series<br><b>Note:</b> Her quiet warmth provides the emotional foundation that makes Rocky's journey meaningful</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Carl Weathers</div>
+                <div class="cast-info">
+                    <div class="cast-name">Apollo Creed</div>
+                    <div class="cast-role">Carl Weathers</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> January 14, 1948<br><b>Nationality:</b> American<br><b>Awards:</b> Saturn Award<br><b>Known For:</b> Rocky series, Predator, The Mandalorian<br><b>Note:</b> His audition was so good that Stallone asked him to read Rocky's lines so Stallone could react to him</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Burgess Meredith</div>
+                <div class="cast-info">
+                    <div class="cast-name">Mickey Goldmill</div>
+                    <div class="cast-role">Burgess Meredith</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 16, 1907<br><b>Nationality:</b> American<br><b>Awards:</b> Two Academy Award nominations, Emmy Award<br><b>Known For:</b> The Penguin (Batman TV series), Of Mice and Men<br><b>Note:</b> His motivational speech in the training montage sequence became one of sports cinema's defining moments</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Burt Young</div>
+                <div class="cast-info">
+                    <div class="cast-name">Paulie</div>
+                    <div class="cast-role">Burt Young</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> April 30, 1940<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award nomination for this role<br><b>Known For:</b> Rocky series, Chinatown, Once Upon a Time in America<br><b>Note:</b> His damaged, self-sabotaging Paulie adds painful texture to Rocky's working-class world</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

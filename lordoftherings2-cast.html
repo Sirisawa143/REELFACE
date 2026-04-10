@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of The Lord of the Rings: The Fellowship of the Ring</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-lordoftherings2.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="F2.jpg" alt="The Lord of the Rings: The Fellowship of the Ring"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Fantasy</span><span class="genre-tag">Adventure</span>
+                </div>
+                <h1>The Lord of the Rings: The Fellowship of the Ring</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.8 / 10.0</span>
+                    <span>2001</span>
+                    <span>USA / New Zealand</span>
+                    <span>178 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Elijah Wood</div>
+                <div class="cast-info">
+                    <div class="cast-name">Frodo Baggins</div>
+                    <div class="cast-role">Elijah Wood</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> January 28, 1981<br><b>Nationality:</b> American<br><b>Awards:</b> Saturn Award, Empire Award<br><b>Known For:</b> The Lord of the Rings Trilogy, Sin City<br><b>Note:</b> Auditioned with a homemade tape filmed in his backyard, wearing a cloak and reading from the book</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Ian McKellen</div>
+                <div class="cast-info">
+                    <div class="cast-name">Gandalf the Grey</div>
+                    <div class="cast-role">Ian McKellen</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 25, 1939<br><b>Nationality:</b> British<br><b>Awards:</b> Academy Award nomination, BAFTA, Tony Award<br><b>Known For:</b> X-Men series, Gods and Monsters, Richard III<br><b>Note:</b> Initially turned the role down; changed his mind after Tolkien enthusiasts wrote to him personally</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Viggo Mortensen</div>
+                <div class="cast-info">
+                    <div class="cast-name">Aragorn</div>
+                    <div class="cast-role">Viggo Mortensen</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> October 20, 1958<br><b>Nationality:</b> American-Danish<br><b>Awards:</b> Academy Award nomination, BAFTA<br><b>Known For:</b> A History of Violence, Eastern Promises, Green Book<br><b>Note:</b> Joined the production with one day's notice; he and his son read the books together on the flight to New Zealand</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Sean Bean</div>
+                <div class="cast-info">
+                    <div class="cast-name">Boromir</div>
+                    <div class="cast-role">Sean Bean</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> April 17, 1959<br><b>Nationality:</b> British<br><b>Awards:</b> Saturn Award nomination<br><b>Known For:</b> GoldenEye, Patriot Games, Game of Thrones<br><b>Note:</b> Feared flying and hiked to filming locations in full costume rather than take helicopters</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Cate Blanchett</div>
+                <div class="cast-info">
+                    <div class="cast-name">Galadriel</div>
+                    <div class="cast-role">Cate Blanchett</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 14, 1969<br><b>Nationality:</b> Australian<br><b>Awards:</b> Two Academy Awards, three BAFTA, three Golden Globes<br><b>Known For:</b> Blue Jasmine, Carol, Elizabeth<br><b>Note:</b> Her opening narration sets the entire trilogy's mythic tone; recorded multiple alternate versions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

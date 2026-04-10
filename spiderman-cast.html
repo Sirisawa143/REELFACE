@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Spider-Man: Across the Spider-Verse</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-spiderman.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="SF3.jpg" alt="Spider-Man: Across the Spider-Verse"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Sci-Fi</span><span class="genre-tag">Animation</span><span class="genre-tag">Adventure</span>
+                </div>
+                <h1>Spider-Man: Across the Spider-Verse</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.7 / 10.0</span>
+                    <span>2023</span>
+                    <span>USA</span>
+                    <span>140 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Shameik Moore</div>
+                <div class="cast-info">
+                    <div class="cast-name">Miles Morales / Spider-Man</div>
+                    <div class="cast-role">Shameik Moore</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 4, 1995<br><b>Nationality:</b> American<br><b>Awards:</b> Annie Award<br><b>Known For:</b> Dope, The Get Down<br><b>Note:</b> Has voiced Miles across multiple films and series; the role has become career-defining</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Hailee Steinfeld</div>
+                <div class="cast-info">
+                    <div class="cast-name">Gwen Stacy / Spider-Woman</div>
+                    <div class="cast-role">Hailee Steinfeld</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> December 11, 1996<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award nomination (True Grit)<br><b>Known For:</b> True Grit, Edge of Seventeen, Bumblebee<br><b>Note:</b> Her expanded role in this film gave Gwen a fully realized emotional arc for the first time</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Oscar Isaac</div>
+                <div class="cast-info">
+                    <div class="cast-name">Miguel O'Hara / Spider-Man 2099</div>
+                    <div class="cast-role">Oscar Isaac</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> March 9, 1979<br><b>Nationality:</b> Guatemalan-American<br><b>Awards:</b> SAG nomination, Critics Choice<br><b>Known For:</b> Ex Machina, Dune, Moon Knight<br><b>Note:</b> Performance captured via motion capture; his imposing presence defines the film's antagonistic turn</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Jake Johnson</div>
+                <div class="cast-info">
+                    <div class="cast-name">Peter B. Parker</div>
+                    <div class="cast-role">Jake Johnson</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 28, 1978<br><b>Nationality:</b> American<br><b>Known For:</b> New Girl, Jurassic World, Ride Along<br><b>Note:</b> His world-weary Spider-Man remains the trilogy's most relatable voice</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Karan Soni</div>
+                <div class="cast-info">
+                    <div class="cast-name">Pavitr Prabhakar / Spider-Man India</div>
+                    <div class="cast-role">Karan Soni</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> December 8, 1989<br><b>Nationality:</b> Indian-American<br><b>Known For:</b> Deadpool series, Safety Not Guaranteed<br><b>Note:</b> One of the most warmly received new Spider-variants, blending Bollywood energy with superhero action</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

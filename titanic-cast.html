@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Titanic</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-titanic.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="titanic.png" alt="Titanic"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Drama</span><span class="genre-tag">Romance</span>
+                </div>
+                <h1>Titanic</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 7.9 / 10.0</span>
+                    <span>1997</span>
+                    <span>USA</span>
+                    <span>194 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Leonardo DiCaprio</div>
+                <div class="cast-info">
+                    <div class="cast-name">Jack Dawson</div>
+                    <div class="cast-role">Leonardo DiCaprio</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 11, 1974<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award (The Revenant), Golden Globe, BAFTA<br><b>Known For:</b> The Revenant, The Wolf of Wall Street, Inception<br><b>Note:</b> Improvised the charcoal sketching scene; the hands seen drawing are director James Cameron's own</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Kate Winslet</div>
+                <div class="cast-info">
+                    <div class="cast-name">Rose DeWitt Bukater</div>
+                    <div class="cast-role">Kate Winslet</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> October 5, 1975<br><b>Nationality:</b> British<br><b>Awards:</b> Academy Award (The Reader), BAFTA, Golden Globe<br><b>Known For:</b> Eternal Sunshine of the Spotless Mind, The Reader, Revolutionary Road<br><b>Note:</b> Reportedly told James Cameron she would only do the film if she did not have to wear the corset</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Billy Zane</div>
+                <div class="cast-info">
+                    <div class="cast-name">Cal Hockley</div>
+                    <div class="cast-role">Billy Zane</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 24, 1966<br><b>Nationality:</b> American<br><b>Known For:</b> Dead Calm, The Phantom, Demon Knight<br><b>Note:</b> Shaved his head for the role and wore a hairpiece throughout the film</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Frances Fisher</div>
+                <div class="cast-info">
+                    <div class="cast-name">Ruth DeWitt Bukater</div>
+                    <div class="cast-role">Frances Fisher</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> May 11, 1952<br><b>Nationality:</b> British-American<br><b>Awards:</b> SAG nomination<br><b>Known For:</b> Unforgiven, True Crime, The Lincoln Lawyer<br><b>Note:</b> Was in a relationship with DiCaprio at the time; their personal dynamic informed certain scenes</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Kathy Bates</div>
+                <div class="cast-info">
+                    <div class="cast-name">Molly Brown</div>
+                    <div class="cast-role">Kathy Bates</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 28, 1948<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award (Misery), Emmy, Golden Globe<br><b>Known For:</b> Misery, About Schmidt, American Horror Story<br><b>Note:</b> The real Molly Brown survived the disaster and advocated for the survivors; Bates researched her extensively</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

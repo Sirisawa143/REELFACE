@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Seven Sundays</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-sevensundays.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="D4.jpg" alt="Seven Sundays"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Drama</span><span class="genre-tag">Comedy</span><span class="genre-tag">Family</span>
+                </div>
+                <h1>Seven Sundays</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 7.3 / 10.0</span>
+                    <span>2017</span>
+                    <span>Philippines</span>
+                    <span>110 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Ronaldo Valdez</div>
+                <div class="cast-info">
+                    <div class="cast-name">Alfredo Sr.</div>
+                    <div class="cast-role">Ronaldo Valdez</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> October 22, 1946<br><b>Nationality:</b> Filipino<br><b>Awards:</b> FAMAS Award, Star Awards<br><b>Known For:</b> Filipino television and film veteran across five decades<br><b>Note:</b> His diagnosis is the film's catalyst; his quiet dignity in the role became one of his most praised performances</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Aga Muhlach</div>
+                <div class="cast-info">
+                    <div class="cast-name">Alfredo Jr. (Teddy)</div>
+                    <div class="cast-role">Aga Muhlach</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 22, 1969<br><b>Nationality:</b> Filipino<br><b>Awards:</b> FAMAS Award, Star Awards for Best Actor<br><b>Known For:</b> Bagets, My Love from the Star, Culion<br><b>Note:</b> One of Philippine cinema's most enduring leading men; returned to dramatic work for this role</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Dingdong Dantes</div>
+                <div class="cast-info">
+                    <div class="cast-name">Big Boy</div>
+                    <div class="cast-role">Dingdong Dantes</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 26, 1980<br><b>Nationality:</b> Filipino<br><b>Awards:</b> FAMAS Award, Star Awards<br><b>Known For:</b> Ang Probinsyano, GMA Network dramas<br><b>Note:</b> His sibling rivalry with Muhlach's character generates much of the film's tension and humor</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Jaclyn Jose</div>
+                <div class="cast-info">
+                    <div class="cast-name">Mina</div>
+                    <div class="cast-role">Jaclyn Jose</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> October 9, 1965<br><b>Nationality:</b> Filipino<br><b>Awards:</b> Cannes Best Actress (Ma' Rosa) — first Filipino actress to win at Cannes<br><b>Known For:</b> Ma' Rosa, Bata Bata Paano Ka Ginawa<br><b>Note:</b> Brings earned emotional complexity to the film's family dynamics</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Enrique Gil</div>
+                <div class="cast-info">
+                    <div class="cast-name">Dennis</div>
+                    <div class="cast-role">Enrique Gil</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> March 30, 1992<br><b>Nationality:</b> Filipino<br><b>Awards:</b> Star Awards for Movies<br><b>Known For:</b> On the Wings of Love, Forevermore<br><b>Note:</b> His younger sibling role adds a generational dimension to the family's fractures</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

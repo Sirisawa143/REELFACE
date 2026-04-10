@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of The Pursuit of Happyness</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-happynness.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="D2.jpg" alt="The Pursuit of Happyness"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Drama</span><span class="genre-tag">Biography</span>
+                </div>
+                <h1>The Pursuit of Happyness</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.0 / 10.0</span>
+                    <span>2006</span>
+                    <span>USA</span>
+                    <span>117 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Will Smith</div>
+                <div class="cast-info">
+                    <div class="cast-name">Chris Gardner</div>
+                    <div class="cast-role">Will Smith</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> September 25, 1968<br><b>Nationality:</b> American<br><b>Awards:</b> Academy Award (King Richard), Golden Globe, SAG<br><b>Known For:</b> Ali, King Richard, The Pursuit of Happyness<br><b>Note:</b> The real Chris Gardner appeared as a businessman in one of the film's final scenes</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Jaden Smith</div>
+                <div class="cast-info">
+                    <div class="cast-name">Christopher Gardner Jr.</div>
+                    <div class="cast-role">Jaden Smith</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> July 8, 1998<br><b>Nationality:</b> American<br><b>Awards:</b> MTV Movie Award for Breakthrough Performance<br><b>Known For:</b> The Karate Kid (2010), After Earth<br><b>Note:</b> Father and son played father and son; their natural chemistry needed no rehearsal</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Thandiwe Newton</div>
+                <div class="cast-info">
+                    <div class="cast-name">Linda</div>
+                    <div class="cast-role">Thandiwe Newton</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> November 6, 1972<br><b>Nationality:</b> British-Zimbabwean<br><b>Awards:</b> Emmy Award (Westworld), BAFTA nominations<br><b>Known For:</b> Crash, Mission: Impossible II, Westworld<br><b>Note:</b> Newton has spoken about the difficulty of portraying a character audiences were meant to resent</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Brian Howe</div>
+                <div class="cast-info">
+                    <div class="cast-name">Jay Twistle</div>
+                    <div class="cast-role">Brian Howe</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 28, 1956<br><b>Nationality:</b> American<br><b>Known For:</b> Charlie Wilson's War, The Promotion<br><b>Note:</b> The Rubik's Cube scene was unscripted and improvised between Howe and Smith</p>
+                </div>
+            </div>
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">James Karen</div>
+                <div class="cast-info">
+                    <div class="cast-name">Martin Frohm</div>
+                    <div class="cast-role">James Karen</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> August 28, 1923<br><b>Nationality:</b> American<br><b>Known For:</b> Poltergeist, Return of the Living Dead<br><b>Note:</b> Played the Dean Witter executive who delivers the moment the whole film builds toward</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>

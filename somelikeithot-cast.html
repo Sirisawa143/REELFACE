@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ReelFaces - Cast of Some Like It Hot</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a class="logo" href="index.html">REEL<span>FACES</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Movies</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <div class="movie-top-row">
+            <a class="back-btn" href="m-somelikeithot.html">&#8592; Back to Movie</a>
+        </div>
+        <div class="movie-overview">
+            <div class="overview-left">
+                <img src="C1.jpg" alt="Some Like It Hot"/>
+            </div>
+            <div class="overview-right">
+                <div class="genre-tags">
+                    <span class="genre-tag">Comedy</span><span class="genre-tag">Romance</span>
+                </div>
+                <h1>Some Like It Hot</h1>
+                <div class="movie-meta">
+                    <span class="star">&#9733; 8.2 / 10.0</span>
+                    <span>1959</span>
+                    <span>USA</span>
+                    <span>121 min</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll">
+        <div class="cast-container">
+
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Marilyn Monroe</div>
+                <div class="cast-info">
+                    <div class="cast-name">Sugar Kane</div>
+                    <div class="cast-role">Marilyn Monroe</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 1, 1926<br><b>Nationality:</b> American<br><b>Awards:</b> Golden Globe<br><b>Known For:</b> Gentlemen Prefer Blondes, Bus Stop, The Seven Year Itch<br><b>Note:</b> Famously required 59 takes to say the line where's the bourbon because of severe anxiety</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Jack Lemmon</div>
+                <div class="cast-info">
+                    <div class="cast-name">Jerry / Daphne</div>
+                    <div class="cast-role">Jack Lemmon</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> February 8, 1925<br><b>Nationality:</b> American<br><b>Awards:</b> Two Academy Awards, AFI Life Achievement Award<br><b>Known For:</b> The Apartment, Glengarry Glen Ross, Missing<br><b>Note:</b> His cross-dressing performance is considered one of the great comic turns in cinema history</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Tony Curtis</div>
+                <div class="cast-info">
+                    <div class="cast-name">Joe / Josephine</div>
+                    <div class="cast-role">Tony Curtis</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> June 3, 1925<br><b>Nationality:</b> American<br><b>Awards:</b> Golden Globe nomination<br><b>Known For:</b> Spartacus, The Defiant Ones, Trapeze<br><b>Note:</b> Improvised the Cary Grant impression that became one of the film's most celebrated jokes</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">Joe E. Brown</div>
+                <div class="cast-info">
+                    <div class="cast-name">Osgood Fielding III</div>
+                    <div class="cast-role">Joe E. Brown</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> July 28, 1892<br><b>Nationality:</b> American<br><b>Known For:</b> Many comedies of the 1930s and 40s<br><b>Note:</b> Delivers the film's final line; his cheerful flexibility closes one of cinema's greatest endings</p>
+                </div>
+            </div>
+            <div class="cast-card">
+                <div style="width:200px;height:300px;background:#ffc5d4;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:0.7rem;color:#3b3535;text-align:center;padding:10px;">George Raft</div>
+                <div class="cast-info">
+                    <div class="cast-name">Spats Colombo</div>
+                    <div class="cast-role">George Raft</div>
+                    <p class="description" style="text-align: start;"><b>Birthdate:</b> September 26, 1895<br><b>Nationality:</b> American<br><b>Known For:</b> Scarface (1932), Each Dawn I Die<br><b>Note:</b> The real-life gangster associations Raft had made his casting a layer of self-aware comedy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var strip = document.getElementById('scroll');
+        strip.addEventListener('wheel', function(e) {
+            e.preventDefault();
+            strip.scrollLeft += e.deltaY;
+        });
+    </script>
+
+</body>
+</html>
